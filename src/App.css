@@ -13,11 +13,77 @@
 .navbar a{
   text-decoration: none;
   font-size: 2.5vw;
-  color: white;
+  color: rgb(253, 253, 253);
   font-weight: bolder;
 
 }
 
 .navbar a:focus{
-  color: rgba(25, 25, 209, 0.481);
+  color: cadetblue;
 }
+
+.studentContainer{
+  padding: 1vw 2vw;
+}
+
+.flexOne{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.studentDetail{
+  font-size: 3vw;
+  font-weight: 400;
+  color: var(--colorOne);
+}
+
+.studentDetail::first-letter{
+  font-size: 4vw;
+}
+
+.newStudentBtn{
+  display: block;
+  padding: 1vw;
+  background-color: var(--colorOne);
+  outline: none;
+  color: white; 
+  font-size: 1.5vw;
+  border: 2px solid var(--colorOne);
+  transition: all 0.2s linear;
+}
+
+.newStudentBtn:hover{
+  color: var(--colorOne); 
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 3px solid var(--colorOne);
+}
+
+table,tr,td,th{
+  border-top: 1px solid rgb(185, 185, 185);
+  border-bottom: 1px solid rgba(185, 185, 185, 0.749);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table{
+  width: 95%;
+  margin: auto;
+}
+
+th,td{
+  padding: 1vw;
+  font-size: 1.4vw;
+  color: rgb(63, 63, 63);
+}
+
+th{
+  color: cadetblue;
+}
+
+td{
+  color: gray;
+}
+
+
